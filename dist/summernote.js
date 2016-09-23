@@ -6,7 +6,7 @@
  * Copyright 2013-2016 Alan Hong. and other contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2016-08-07T05:11Z
+ * Date: 2016-09-23T11:58Z
  */
 (function (factory) {
   /* global define */
@@ -1939,7 +1939,6 @@
       $node.addClass('fade');
     }
     $node.html([
-      '<div class="modal-dialog">',
       '  <div class="modal-content">',
       (options.title ?
       '    <div class="modal-header">' +
@@ -1952,7 +1951,6 @@
       '    <div class="modal-footer">' + options.footer + '</div>' : ''
       ),
       '  </div>',
-      '</div>'
     ].join(''));
   });
 

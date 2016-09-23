@@ -84,7 +84,6 @@ define([
       $node.addClass('fade');
     }
     $node.html([
-      '<div class="modal-dialog">',
       '  <div class="modal-content">',
       (options.title ?
       '    <div class="modal-header">' +
@@ -97,7 +96,6 @@ define([
       '    <div class="modal-footer">' + options.footer + '</div>' : ''
       ),
       '  </div>',
-      '</div>'
     ].join(''));
   });
 
